@@ -10,8 +10,14 @@ package buoi6;
  * @author HP
  */
 public class tamgiaccan extends tamgiac {
+    private int x;
+    private int y;
+    private int z;
+    if ( x==y || y ==z || z == x ){
+    System.out.println("Đây là tam giác cân");
+}
     public void chuvi(){
     int cv;
-    cv = a+b+c;
+    cv = x+b+c;
 }
 }
